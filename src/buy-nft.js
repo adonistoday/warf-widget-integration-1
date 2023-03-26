@@ -61,6 +61,7 @@ const css_option = {
 
 console.log(options);
 console.log(options1);
+console.log(css_option);
 
 if (window.ethereum) {
   (async () => {
