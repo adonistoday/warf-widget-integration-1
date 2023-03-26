@@ -28,7 +28,24 @@ const options = {
   },
 };
 
+const options1 = {
+  partner_id: 'default',
+  container_id: 'widget',
+  click_id: uuidv4(), // unique id of purhase in your system
+  width: 400,
+  height: 600,
+  currency: 'USD',
+  commodity: 'ETH',
+  commodities: 'BTC,ETH',
+  // currency_amount: 100,
+  listeners: {
+    loaded: () => console.log('loaded'),
+  },
+};
+
+
 console.log(options);
+console.log(options1);
 
 if (window.ethereum) {
   (async () => {
