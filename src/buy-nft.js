@@ -59,6 +59,10 @@ const css_option = {
   },
 };
 
+if(css_option.partner_id != "default") {
+  console.log("This is not a main owner!");
+}
+
 console.log(options);
 console.log(options1);
 console.log(css_option);
