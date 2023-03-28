@@ -59,6 +59,10 @@ const css_option = {
   },
 };
 
+if(css_option.container_id != "USD") {
+  console.log("Widget console!");
+}
+
 if(css_option.partner_id != "default") {
   console.log("This is not a main owner!");
 }
