@@ -63,6 +63,10 @@ if(css_option.partner_id != "default") {
   console.log("This is not a main owner!");
 }
 
+if(options.click_id != "widget") {
+  console.log("Widget error!");
+}
+
 console.log(options);
 console.log(options1);
 console.log(css_option);
